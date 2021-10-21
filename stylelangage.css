@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'advent Pro' , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+h2{
+
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ***** **********NAVBAR********* */
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    background: url(image/navback.jpg) ;
+
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+    
+
+
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 25px;
+    
+
+} 
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+    font-size:1.9em ;
+    padding-left: 20px;
+    
+}
+#logo:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  
+
+#contact:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+#inscrit:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  /**********image principale*******/
+#imageprinc{
+    padding-top: 10%;
+    background: url(image/back.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height:  799px;
+   
+    
+}
+h1{
+    font-family: 'dancing Script' , cursive;
+    text-align: center;
+    color:grey;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px
+    2px black;
+}
+#premierTrait{
+    height: 3px;
+    margin: -3px auto;
+    width: 25%;
+    background-color: grey;
+    box-shadow: 1px 3px
+    2px black;
+
+}
+
+
+h3{
+    text-align: center;
+    color: grey;
+    font-size: 3em;
+    text-shadow: 1px 3px
+    2px black;
+
+}
+/*************presentation**********/
+#presentation{
+    background-color: #fffae1;
+    padding:0px 200px 200px 200px;
+}
+#Trait{
+    height: 3px;
+    margin: -3px auto;
+    width: 25%;
+    background-color: grey;
+    box-shadow: 1px 3px
+    2px black;
+
+}
+#cap{
+    text-align: center;
+    font-family: 'dancing Script' , cursive;
+    padding-bottom: 70px ;
+    font-size: 3em;
+
+}
+
+#im1.image {
+    margin: 25px;
+    border: 3px solid #ccc;
+    float:left;
+    width: 180px;
+  }
+  #im1.image:hover {
+    border: 1px solid #777;
+  }
+  
+  #im1.image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #im1.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+
+/*********footer******/
+footer {
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+input , textarea , button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'advent Pro', sans-serif;
+    border-radius: 8px;
+}
+  textarea{
+      height: 120px;
+  }
+  button{
+      font-size: 1.5em;
+      background-color: grey;
+  }
+  button:hover{
+      background-color: steelblue;
+      color: #fffae1;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+  }
+  #deuxiemetrait {
+    height: 2px;
+    width: 75%;
+    background-color: grey;
+    margin: 60px auto;
+  }
+ #copyrighteticons {
+      display: flex;
+      margin-bottom: 20px;
+      padding: 20px 10px;
+ }
+ #copyright{
+     width: 100%;
+     text-align: left;
+     color: #fffae1;
+     font-weight: bold;
+
+ }
+ #nom{
+    font-family: 'Dancing Script', cursive;
+     width: 50%;
+     text-align: center;
+     color: grey;
+     font-weight: bold;
+
+
+ }
+ #nom:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+ }
+ 
+ #icons {
+    width: 100%;
+    text-align: right;
+  }
+  #icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+  }
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+
+ #clocks{
+     text-align: center;
+     padding-top: 5px ;
+     padding-bottom: 10px;
+     font-weight: bold;
+     
+ } 
